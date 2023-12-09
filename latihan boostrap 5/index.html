@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rearizth</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-body-tertiary" >
+   
+    <div class="container ">
+      <a class="navbar-brand " href="#">Latihan Boostrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#images">Images</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#table">Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#text">Text</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#color">Color</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spacing">Spacing & Sizing</a>
+          </li>
+        
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+  <!-- Akhir Navbar -->
+
+
+  <!-- Typography -->
+  <div class="container">
+  <h1 class="text-center my-5">Basic Content TYPOGRAPHY</h1>
+  <hr>
+  <h1 class="text-primary">Heading</h1>
+  <p>untuk membuat heading tambahkan <b>class="H1 sd H6"</b> dengan satuan ukuran rem/Relatif & Responsive</p>
+  <h1 class="H1">Heading 1</h1>
+  <h2 class="H2">Heading 2</h2>
+  <h3 class="H3">Heading 3</h3>
+  <h4 class="H4">Heading 4</h4>
+  <h5 class="H5">heading 5</h5>
+  <h6 class="H6">Heading 6</h6>
+  <hr>
+
+  <!-- Display tulisnnya bisa jauh lebih besar dibanding heading -->
+  <h1 class="text-primary">Display</h1>
+  <p>Digunakan Pada Headline.<b>class="display-1 sd display-6"</b></p>
+  <h1 class="display-1">display-1</h1>
+  <p class="display-2">Display-2</p>
+  <p class="display-3">Display-3</p>
+  <p class="display-4">Display-4</p>
+  <p class="display-5">Display-5</p>
+  <p class="display-6">Display-6</p>
+  <hr>
+  <!-- Lead berfungsi untuk menonjolkan suatu paragraf -->
+  <h1 class="text-primary">Lead</h1>
+  <p>menonjolkan suatu paragraf <b>class="lead"</b></p>
+  <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo enim, minima vitae repellendus explicabo quae magni nemo veniam sit culpa.</p>
+
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo enim, minima vitae repellendus explicabo quae magni nemo veniam sit culpa.</p>
+  <hr>
+
+  <!-- text muted memberikan kesan text Bisu/non-aktif atau disable -->
+  <h1 class="text-primary">Text Muted</h1>
+  <p>text muted memberikan kesan text Bisu/non-aktif atau disable <b>class="text-muted"</b></p>
+  <p>ini text biasa</p>
+  <p class="text-muted">ini text muted</p>
+  <hr>
+   
+  <!-- Pengaturan font salah satu style yang akan sering digunakan -->
+  <h1 class="text-primary">Font Style</h1>
+  <p>pengaturan font</p>
+  <p class="fw-bold">text tebal (font-weight-bold)</p>
+  <p class="fw-normal">text normal (font-weight-normal)</p>
+  <p class="fw-light">Light/Tipis weight text</p>
+  <p class="fst-italic">text italic (font-italic)</p>
+  <p class="text-lowercase">LOWERCASE</p>
+  <p class="text-uppercase">uppercase</p>
+  <p class="text-capitalize">capitalize</p>
+  <p class="font-monospace">ini adalah monospace</p>
+  <hr>
+  <h1 class="text-primary">Text decoration</h1>
+  <p>memberi dekorasi pada text</p>
+  <p class="text-decoration-underline">text mempunyai garis bawah</p>
+  <p class="text-decoration-line-through">text seperti di coret</p>
+  <a href="#" class="text-decoration-none">Menghilangkan sebuah text dekorasi</a>
+  <hr>
+
+  <h1 class="text-primary">text-truncate</h1>
+  <p>Befungsi untuk memangkas tulisan</p>
+  <p class="text-truncate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia error nihil reprehenderit accusamus earum facere a sapiente id assumenda nesciunt soluta, sint voluptatibus culpa! Laboriosam odio est ut ab beatae distinctio velit labore porro pariatur voluptates libero eligendi accusantium aperiam praesentium dolores laborum, accusamus cumque facilis reiciendis soluta repudiandae aliquam consectetur? Dolores eveniet temporibus et, cupiditate enim aut doloremque ab officia repellendus inventore. Nemo veniam enim voluptatibus debitis. Suscipit, porro quaerat inventore cupiditate architecto provident amet. Omnis, nostrum soluta optio cumque natus veniam enim laboriosam ullam et, earum commodi ipsum perferendis voluptas autem sit aspernatur. Optio eos recusandae sint animi.</p>
+
+  <hr>
+
+  <h1 class="text-primary">Style & Unstyle</h1>
+  <p>Menghilangkan style</p>
+  <ul>
+    <li>Test</li>
+    <li>Agus</li>
+    <li>Bagus</li>
+  </ul>
+  <p>lalu tambah class pada ul nya (list-unstyled)</p>
+  <ul class="list-unstyled">
+    <li>Test</li>
+    <li>Agus</li>
+    <li>Bagus</li>
+  </ul>
+  <hr>
+
+  <h1 class="text-primary">list-inline</h1>
+  <p>Merubah ul menjadi inline (tidak membuat baris baru)</p>
+  <ul>
+    <li>Test</li>
+    <li>Agus</li>
+    <li>Bagus</li>
+  </ul>
+  <p>lalu tambah class pada itemnya nya (list-inline-item)</p>
+  <ul class="list-inline">
+    <li class="list-inline-item">Test</li>
+    <li class="list-inline-item">Agus</li>
+    <li class="list-inline-item">Bagus</li>
+  </ul>
+  <hr>
+
+  <h1 id="images" class="text-center mt-5 mb-5">Image & Figure</h1>
+
+  <h1 class="text-primary">Responsive Image</h1>
+  <p>Membuat gambar responsive,lebar akan selalu 100% dan tinggi akan menyesuasikan <b>Responsive</b></p>
+  <img src="Assets/banner.jpg" alt="" class="img-fluid" >
+  <hr>
+
+  <h1 class="text-primary">image Thumbnail</h1>
+  <p>membuat Thumbnail</p>
+  <img src="Assets/mu.jpg" alt="" class="img-thumbnail">
+  <hr>
+
+  <h1 class="text-primary">Gambar Tumpul</h1>
+  <p>membuat ujung gambar jadi tumpul</p>
+  <img src="Assets/aot.jpg" alt="" class="rounded">
+  <hr>
+
+  <h1 class="text-primary">Gambar Circle</h1>
+  <p>Gambar menjadi lingkaran</p>
+  <img src="Assets/banner.jpg" alt="" class="  rounded-circle">
+  <hr>
+
+  <h1 class="text-primary">Align Image</h1>
+  <p>mensejajarkan image</p>
+  <img src="Assets/mu.jpg" alt="" class="float-end">
+  <img src="Assets/mu.jpg" alt="" class="float-star">
+  <img src="Assets/mu.jpg" alt="" class="mx-auto d-block">
+  <hr>
+
+  <h1 class="text-primary">figure</h1>
+  <p>membuat figure. Figure adalah membuat suatu gambar di dalam suatu frame</p>
+  <figure class="figure">
+    <img src="Assets/aot.jpg" alt="" style="width: 5000px;" class="img-fluid">
+    <figcaption class="figure-caption" >
+      Ini adalah image caption
+    </figcaption>
+  </figure>
+  <hr>
+
+  <h1 id="table" class="text-center mt-5 mb-5">Tables</h1>
+  <hr>
+  <h1 class="text-primary">Normal Tabel</h1>
+  <p>Tanpa class boostrap</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+
+  <h1 class="text-primary">Normal Tabel</h1>
+  <p>Dengan class boostrap</p>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Inverse Dark</h1>
+  <p>Membuat tabel berwarna gelap dengan menambahkan class <b>table-dark</b></p>
+
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Head Inverse-Dark</h1>
+  <p>Membuat tabel head berwarna gelap dengan menambahkan class <b>table-dark</b></p>
+
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Striped</h1>
+  <p>Membuat tabel menjadi belang dengan menambahkan class <b>table-striped</b></p>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Border</h1>
+  <p>Membuat tabel memiliki border dengan menambahkan class <b>table-bordered</b></p>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Tanpa Border</h1>
+  <p>Membuat tidak memiliki border dengan menambahkan class <b>table-borderless</b></p>
+
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Hover</h1>
+  <p>Membuat tabel Hover dengan menambahkan class <b>table-hover</b></p>
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Mewarnai tabel</h1>
+  <p>Megganti warna tabel dengan menambahkan class <b>table-primary..</b></p>
+
+  <table class="table table-primary">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Tabel Small</h1>
+  <p>Membuat ukuran tabel menjadi lebih kecil dengan menambahkan class <b>table-sm</b></p>
+
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h1 class="text-primary">Responsive Tabel</h1>
+  <p>Membuat tabel responsive dengan menambahkan class <b>table-responsive</b></p>
+
+  <div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>nama</th>
+        <th>Alamat</th>
+        <th>Tempat Lahir</th>
+        <th>Profesi</th>
+        <th>No telepon</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Agus</td>
+        <td>Sumedang</td>
+        <td>Sumedang</td>
+        <td>Mahasiswa</td>
+        <td>082828282</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Bagus</td>
+        <td>Sumedang</td>
+        <td>Bandung</td>
+        <td>Mahasiswa</td>
+        <td>082828282</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Bagas</td>
+        <td>Bandung</td>
+        <td>Sumedang</td>
+        <td>Mahasiswa</td>
+        <td>082828282</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <hr>
+
+  <h1  id-="text" class="text-center my-5">Text Alignment</h1>
+  <hr>
+  <h1 class="text-primary">Text Alignment</h1>
+  <p>Mensejajarkan text</p>
+  <p class="text-end">Membuat Tulisan rata kiri</p>
+  <p class="text-center">Membuat tulisan rata tengan</p>
+  <p class="text-start">membuat tulisan rata kanan</p>
+  <hr>
+
+  <h1 class="text-primary">Text Alignment Responsive</h1>
+  <p>Mensejajarkan text pada kondisi layar tertentu</p>
+  <p class="text-sm-center">Membuat Tulisan rata tengah pada saat ukuran layar SM(small) atau lebih besar</p>
+  <p class="text-md-center">Membuat Tulisan rata tengah pada saat ukuran layar MD(medium) atau lebih besar</p>
+  <p class="text-lg-center">Membuat Tulisan rata tengah pada saat ukuran layar LG(Large) atau lebih besar</p>
+  <p class="text-xl-center">Membuat Tulisan rata tengah pada saat ukuran layar XL(extra large) atau lebih besar</p>
+  <hr>
+
+  <h1 class="text-primary">text Wrapping dan Overflow</h1>
+  <p>membuat text menyesuasikan dengan pembungkusnya</p>
+
+  <div class="badge bg-primary text-wrap" style="width: 100px;">
+    text ini menyesuaikan dengan pembungkusnya
+  </div>
+<hr>
+
+<h1 class="text-primary">Line Height</h1>
+<p>mengatur jarak antar baris teks</p>
+
+<p class="lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere odio accusamus debitis porro culpa suscipit maiores vitae, incidunt tenetur deleniti explicabo illum, ipsa dolor dolores! Culpa qui sed accusamus nam minima quae vitae alias, numquam consequuntur dicta officia vel laboriosam eaque ad sequi earum aliquid aut quam. Quos, impedit.</p>
+<p class="lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere odio accusamus debitis porro culpa suscipit maiores vitae, incidunt tenetur deleniti explicabo illum, ipsa dolor dolores! Culpa qui sed accusamus nam minima quae vitae alias, numquam consequuntur dicta officia vel laboriosam eaque ad sequi earum aliquid aut quam. Quos, impedit.</p>
+<p class="lh-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere odio accusamus debitis porro culpa suscipit maiores vitae, incidunt tenetur deleniti explicabo illum, ipsa dolor dolores! Culpa qui sed accusamus nam minima quae vitae alias, numquam consequuntur dicta officia vel laboriosam eaque ad sequi earum aliquid aut quam. Quos, impedit.</p>
+<p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facere odio accusamus debitis porro culpa suscipit maiores vitae, incidunt tenetur deleniti explicabo illum, ipsa dolor dolores! Culpa qui sed accusamus nam minima quae vitae alias, numquam consequuntur dicta officia vel laboriosam eaque ad sequi earum aliquid aut quam. Quos, impedit.</p>
+<hr>
+
+<h1 id="color" class="text-center my-5">Color & Background</h1>
+<hr>
+
+<h1 class="text-primary">Background Color</h1>
+<p>Mewarnai Background</p>
+<div class="p-3 mb-2 border  bg-primary">bg-primary</div>
+<div class="p-3 mb-2 border bg-secondary">bg-secondary</div>
+<div class="p-3 mb-2 border bg-success">bg-success</div>
+<div class="p-3 mb-2 border bg-danger">bg-danger</div>
+<div class="p-3 mb-2 border bg-warning">bg-warning</div>
+<div class="p-3 mb-2 border bg-info">bg-info</div>
+<div class="p-3 mb-2 border bg-light">bg-light</div>
+<div class="p-3 mb-2 border bg-dark text-white">bg-dark</div>
+<div class="p-3 mb-2 border bg-body">bg-body</div>
+<div class="p-3 mb-2 border bg-white">bg-white</div>
+<div class="p-3 mb-2 border bg-transparent">bg-transparent</div>
+<hr>
+
+<h1 class="text-primary">Background Gradient</h1>
+<p>Mewarnai Background</p>
+<div class="p-3 mb-2 border  bg-primary">bg-primary</div>
+<div class="p-3 mb-2 border  bg-primary bg-gradient" style="height: 150px;">bg-primary bg-gradient</div>
+<hr>
+<h1 class="text-primary">Font Color</h1>
+<p>Memberi warna pada text</p>
+
+<p class="text-primary">text-primary / warna biru</p>
+<p class="text-secondary">text-secondary / Abu abu</p>
+<p class="text-success">text-success / hijau</p>
+<p class="text-danger">text-danger / merah</p>
+<p class="text-warning">text-warning / kuning</p>
+<p class="text-info"> text-info / Biru muda</p>
+<p class="text-light bg-dark">text-light / putih</p>
+<p class="text-dark">text-dark / Hitam</p>
+<p class="text-body">text-body / abu tua</p>
+<p class="text-muted">text-muted / abu abu muda</p>
+<p class="text-white bg-dark">text-white / putih</p>
+<p class="text-black-50">text-black-50 / Hitam Opacity 50%</p>
+<p class="text-white-50 bg-dark">text-white-50 / putih Opacity 50%</p>
+
+<h1 class="text-center my-5">Spacing & Sizing</h1>
+<hr>
+
+<h1 class="text-primary" id="spacing">Spacing & Sizing</h1>
+<p>Memberi Ruang Kosong Pada Sekeliling Objek</p>
+<hr>
+
+<h1 class="text-primary">Margin Bottom</h1>
+<p>Membuat Margin Bottom <b>mb</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary mb-3">satu</div>
+<div style="width: 200px; height: 50px;" class="bg-primary mb-2">dua</div>
+<div style="width: 200px; height: 50px;" class="bg-primary mb-5">tiga</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin Top</h1>
+<p>Membuat Margin Top <b>mt</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary ">satu</div>
+<div style="width: 200px; height: 50px;" class="bg-primary mt-1">dua</div>
+<div style="width: 200px; height: 50px;" class="bg-primary mt-5">tiga</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin right</h1>
+<p>Membuat Margin Right <b>me</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary d-inline-block me-5">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary d-inline-block ">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin Left</h1>
+<p>Membuat Margin Left <b>ms</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary d-inline-block ">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary d-inline-block ms-2">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin Sumbu X</h1>
+<p>Membuat Margin untuk sumbu x atau kiri dan kanan <b>mx</b></p>
+<div style="width: 100px; height: 50px;" class="bg-primary d-inline-block mx-3">tiga</div>
+<div style="width: 100px; height: 50px;" class="bg-primary d-inline-block">empat</div>
+<div style="width: 100px; height: 50px;" class="bg-primary d-inline-block">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin Sumbu Y</h1>
+<p>Membuat Margin untuk y atau atas dan bawah <b>mt</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary my-3">tiga</div>
+<div style="width: 200px; height: 50px;" class="bg-primary my-5">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">lima</div>
+<hr>
+
+<h1 class="text-primary">Margin Auto</h1>
+<p>Membuat Margin auto <b>mx-auto</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary mx-auto">tiga</div>
+<hr>
+
+
+<h1 class="text-primary">Margin Keliling</h1>
+<p>Membuat Margin untuk semua sisi <b>m</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary m-4">tiga</div>
+<div style="width: 200px; height: 50px;" class="bg-primary m-5">empat</div>
+<div style="width: 200px; height: 50px;" class="bg-primary">lima</div>
+<hr>
+
+<h1 class="text-primary">Padding Bottom</h1>
+<p>membuat padding bottom <b>pb</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary pb-5">lima</div>
+<hr>
+
+<h1 class="text-primary">Padding Top</h1>
+<p>membuat padding Top <b>pt</b></p>
+<div style="width: 200px; height: 50px;" class="bg-primary pt-3">lima</div>
+<hr>
+
+<h1 class="text-primary">Sizing</h1>
+<p>w-25 sd w-100</p>
+<div class="container">
+  <div class="bg-info w-25">25</div>
+  <div class="bg-info w-50">50</div>
+  <div class="bg-info w-75">75</div>
+  <div class="bg-info w-100">100</div>
+</div>
+<hr>
+
+<h1 class="text-primary">Sizing</h1>
+<p>h-25 sd h-100</p>
+<div class="container" style="height: 500px;">
+  <div class="bg-info h-25 d-inline-block">25</div>
+  <div class="bg-info h-50 d-inline-block">50</div>
+  <div class="bg-info h-75 d-inline-block">75</div>
+  <div class="bg-info h-100 d-inline-block">100</div>
+</div>
+<hr>
+
+
+</div>
+
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/popper.min.js"></script>
+
+</body>
+</html>
